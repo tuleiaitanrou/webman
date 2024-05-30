@@ -1,9 +1,9 @@
 <?php
 
-namespace Lei\Project;
+namespace Tulei\Project;
 
-use Lei\Project\rule\Model;
-use Lei\Project\rule\Validate;
+use Tulei\Project\rule\Model;
+use Tulei\Project\rule\Validate;
 
 class App {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Lei\Project\rule;
+namespace Tulei\Project\rule;
 
 
-use Lei\Project\db\Table;
-use Lei\Project\Utils;
+use Tulei\Project\db\Table;
+use Tulei\Project\Utils;
 
 class Base {
 

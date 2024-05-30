@@ -3,7 +3,7 @@
 namespace Lei\Project\rule;
 
 
-use Lei\Project\Utils;
+use Tulei\Project\Utils;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 

@@ -1,15 +1,15 @@
 {
-  "name": "lei/project",
+  "name": "tulei/project",
   "type": "library",
   "license": "MIT",
-  "description": "Webman plugin lei/project",
+  "description": "Webman plugin tulei/project",
   "require": {
     "twig/twig": "^3.9",
     "webman/think-orm": "^1.1"
   },
   "autoload": {
     "psr-4": {
-      "Lei\\Project\\": "src"
+      "Tulei\\Project\\": "src"
     }
   }
 }

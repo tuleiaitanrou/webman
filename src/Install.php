@@ -1,5 +1,5 @@
 <?php
-namespace Lei\Project;
+namespace Tulei\Project;
 
 class Install
 {

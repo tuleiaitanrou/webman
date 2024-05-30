@@ -1,6 +1,6 @@
 <?php
 
-namespace Lei\Project\db;
+namespace Tulei\Project\db;
 
 
 use think\Exception;

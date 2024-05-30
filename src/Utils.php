@@ -1,6 +1,6 @@
 <?php
 
-namespace Lei\Project;
+namespace Tulei\Project;
 
 
 const SP = DIRECTORY_SEPARATOR;
