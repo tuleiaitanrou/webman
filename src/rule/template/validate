@@ -1,0 +1,22 @@
+<?php
+
+namespace app\validate{{namespace}};
+
+use app\validate\BaseValidate;
+
+class {{className}}  extends  BaseValidate{
+
+       //定义规则
+       public $rule = [
+       {% for item in rule %}
+       '{{item.key}}'  => '{{item.value}}',
+
+       {% endfor %} ];
+
+
+       //定义使用的函数场景
+       public $scene =  [
+            'create' => [{% for item in create %}'{{item}}',{% endfor %}],
+            'update' => ['id',{% for item in create %}'{{item}}',{% endfor %}],
+        ];
+}

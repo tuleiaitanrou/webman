@@ -1,0 +1,29 @@
+<?php
+
+namespace app\model{{namespace}};
+
+use app\common\AppModel;
+
+{% if softDelete == true %}
+use think\model\concern\SoftDelete;
+{% endif   %}
+class {{ className }} extends AppModel
+{
+
+   {% if softDelete == true %}
+   use SoftDelete;
+   protected $deleteTime = 'deleted_at';
+   {% endif   %}
+   protected $table = '{{table_name}}';
+
+   //模型允许写入的字段列表（数组）
+   protected $field = [ {% for item in field %}'{{item}}',{% endfor %} ];
+
+   //只读字段
+   protected $readonly = [];
+
+   //json字段
+   protected $json = [];
+
+
+}
